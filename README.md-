@@ -1,0 +1,16 @@
+1. Penyimpanan Data Mahasiswa
+Bagian ini berfungsi untuk menyimpan data beberapa mahasiswa yang terdiri dari nama, tingkat kehadiran, dan status tugas. Data tersebut menjadi sumber informasi yang akan diproses oleh program untuk menentukan status masing-masing mahasiswa.
+2. Fungsi Penentuan Status Mahasiswa
+Fungsi ini merupakan bagian utama program yang bertugas mengolah data kehadiran dan tugas mahasiswa. Berdasarkan kedua informasi tersebut, fungsi akan menentukan apakah mahasiswa termasuk aktif atau tidak aktif serta memberikan keterangan tambahan jika memenuhi syarat tertentu.
+3. Pemeriksaan Kehadiran
+Program terlebih dahulu mengevaluasi tingkat kehadiran mahasiswa. Kehadiran dijadikan indikator utama karena menunjukkan partisipasi mahasiswa dalam proses pembelajaran. Mahasiswa dengan kehadiran tinggi dianggap lebih aktif dibandingkan mahasiswa dengan kehadiran rendah.
+4. Pemeriksaan Kelengkapan Tugas
+Setelah kehadiran diperiksa, program melihat apakah tugas mahasiswa telah diselesaikan dengan lengkap. Kelengkapan tugas digunakan untuk menilai tingkat kedisiplinan mahasiswa dalam memenuhi tanggung jawab akademiknya.
+5. Penentuan Status dan Keterangan
+Mahasiswa yang memiliki kehadiran tinggi akan memperoleh status aktif. Jika selain hadir secara aktif juga menyelesaikan seluruh tugas, mahasiswa tersebut mendapatkan keterangan sebagai mahasiswa disiplin. Sebaliknya, mahasiswa dengan kehadiran rendah dikategorikan tidak aktif karena kurang berpartisipasi dalam kegiatan perkuliahan.
+6. Menampilkan Data Mahasiswa
+Program kemudian menampilkan seluruh informasi mahasiswa beserta hasil evaluasinya. Proses ini dilakukan secara berulang untuk setiap data mahasiswa yang tersimpan sehingga seluruh mahasiswa dapat dinilai secara otomatis.
+7. Input Data Mahasiswa Baru
+Program menyediakan fitur tambahan yang memungkinkan pengguna memasukkan data mahasiswa baru secara langsung melalui keyboard. Fitur ini membuat program lebih fleksibel karena dapat digunakan untuk mengevaluasi data baru tanpa mengubah kode program.
+8. Evaluasi Data Mahasiswa Baru
+Setelah data baru dimasukkan, program memprosesnya menggunakan aturan yang sama seperti data sebelumnya. Dengan demikian, penilaian yang dilakukan tetap konsisten dan tidak bergantung pada siapa mahasiswa yang dinilai.
